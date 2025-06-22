@@ -1,0 +1,14 @@
+import java.util.*;
+
+class nested4_ter {
+    public static void main(String[] args) {
+		
+		 System.out.println("Enter number for a,b,c,d");
+	    Scanner value = new Scanner(System.in);
+		int a = value.nextInt();
+		int b = value.nextInt();
+		int c = value.nextInt();
+		String num = (a>b && a>c)? " a is bigest number" : (b>c)? " b is bigest number" : " c is bigest number" ;
+	    System.out.println(num);
+	}
+}

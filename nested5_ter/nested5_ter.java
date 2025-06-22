@@ -1,0 +1,16 @@
+import java.util.*;
+
+class nested5_ter {
+    public static void main(String[] args) {
+		
+		 System.out.println("Enter number for a,b,c,d");
+	    Scanner value = new Scanner(System.in);
+		int a = value.nextInt();
+		int b = value.nextInt();
+		int c = value.nextInt();
+		int d = value.nextInt();
+		int e = value.nextInt();
+		String num = (a>b && a>c && a>d && a>e)? " a is bigest number" : (b>c && b>d && b>e)? " b is bigest number" : (c>d && c>e)?" c is bigest number" :(c>d)?"d is bigest number":" e is bigest number"  ;
+	    System.out.println(num);
+	}
+}

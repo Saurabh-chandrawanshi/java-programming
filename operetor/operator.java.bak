@@ -1,0 +1,32 @@
+import java.util.*;
+
+class nested_if3{
+    public static void main(String[] args) {
+		int a,b,c;
+	    Scanner value = new Scanner(System.in);
+		a = value.nextInt();
+		b = value.nextInt();
+		c = value.nextInt();
+		if(a>b)
+			{
+			if(a>b){
+				if(a>c){
+					 System.out.println("a is bigest number");
+				}
+				else{
+					if(b>c){
+				
+					 System.out.println("b is bigest number");
+					
+					}
+					else{
+						
+					 System.out.println("b is bigest number");
+					}
+			}
+       
+			}
+     
+        }
+	}
+}

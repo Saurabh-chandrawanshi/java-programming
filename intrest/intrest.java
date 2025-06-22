@@ -1,0 +1,22 @@
+import java.util.*;
+class intrest
+{
+	public static void main (String args[])
+	{
+		double sum,r,t,p;
+	
+		Scanner src = new Scanner (System.in);
+		System.out.print( " Enter value of r =" );
+		
+		 r = src.nextDouble();
+		System.out.print( " Enter value of t =" );
+		
+		 t = src.nextDouble();
+		 System.out.print( " Enter value of p =" );
+		
+		 p = src.nextDouble();
+		 sum=(r*t*p)/100;
+		System.out.println( " value of intrest is ="+sum );
+		
+	}
+}

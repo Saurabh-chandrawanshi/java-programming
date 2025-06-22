@@ -1,0 +1,58 @@
+import java.util.*;
+
+class nested5 {
+    public static void main(String[] args) {
+		
+		 System.out.println("Enter number for a,b,c,d");
+	    Scanner value = new Scanner(System.in);
+		int a = value.nextInt();
+		int b = value.nextInt();
+		int c = value.nextInt();
+		int d = value.nextInt();
+		int e = value.nextInt();
+		
+		if(a>b){
+		if(a>c){
+			if(a>d){
+				if(a>e){
+					 System.out.println("a is bigest number");
+				}
+		}
+		}
+		}
+				else {
+					if(b>c){
+						if(b>d){
+							if(b>e){
+						
+					 System.out.println("b is bigest number");
+				}
+		}
+					}
+				
+				else{
+					if(c>d){
+						if(c>e){
+						
+					 System.out.println("c is bigest number");
+					
+					}
+					}
+				
+					else{
+						if(d>e){
+						
+					 System.out.println("d is bigest number");
+					}
+					else{
+						System.out.println("e is bigest number");
+				}
+			}
+	
+			}
+			
+	}
+}
+}
+        
+	

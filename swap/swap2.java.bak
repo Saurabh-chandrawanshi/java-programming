@@ -1,0 +1,19 @@
+import java.util.*;
+class swap2
+{
+	public static void main (String args[])
+	{
+		int a = 100 ,b = 200;
+		
+		System.out.println( " value of a ="+a );
+		System.out.println( " value of b ="+b );
+		a = a +  b ;
+			a = a - b;
+		b = b - a;
+	
+		System.out.println( " After Swap value of a ="+a );
+	
+		System.out.println( "After Swap value of b ="+b );
+		
+	}
+}
